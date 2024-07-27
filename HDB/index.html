@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HDB - Enjoy your Stay</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header id="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">HDB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="menuMobileLabel">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MENU OFFCANVAS -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menuMobile" aria-labelledby="menuMobileLabel">
+      <div class="offcanvas-body position-relative">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
+        <a class="navbar-brand" href="#">HDB</a>
+        <div class="dropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN IMG -->
+    <main id="main">
+      <div class="container spacing">
+        <div class="row">
+          <div class="col-12">
+            <h1><span>Enjoy</span> your Stay</h1>
+            <p class="text-center my-4 h5">Bem-vindo ao HDB! Aproveite sua estadia.</p>
+            <a href="pages/about.html"><button class="btn-hotel mb-5">About our Hotel</button></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- SECTION HISTORY -->
+    <section id="section-history">
+      <div class="row">
+        <div class="col-12 col-lg-6 bg-photo1">
+          <img src="assets/img/photo-1.jpg" alt="Photo Hotel">
+        </div>
+        <div class="col-12 col-lg-6 bg-gray">
+          <h2 class="text-center mt-5"><span>The History</span> of Our Hotel</h2>
+          <p class="text-center pt-5 mb-2">Descubra a história do nosso hotel, onde tradição e hospitalidade criam experiências inesquecíveis. Desde nossa fundação, oferecemos acolhimento caloroso e serviço excepcional, refletindo nosso compromisso com a excelência e a satisfação dos hóspedes</p>
+          <button class="btn-hotel mx-auto mb-5">Read More</button>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- SECTION HELP -->
+    <section id="section-help">
+      <div class="row d-flex justify-content-center text-center">
+        <div class="col-8 pt-5 my-1 my-sm-5 col-lg-4 pt-lg-5 my-lg-0">
+          <svg width="70" height="69" viewBox="0 0 70 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="70" height="68.2716" fill="url(#pattern0_389_52)"/><defs><pattern id="pattern0_389_52" patternContentUnits="objectBoundingBox" width="1" height="1"><use xlink:href="#image0_389_52" transform="scale(0.0078125)"/></pattern>
+            <image id="image0_389_52" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAQAAABpN6lAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAHdElNRQfhCRgNBR2f2HRJAAAErklEQVR42u2cX4hVVRTGf3f+3bn5FzRxgpLAP0RliIiBQlQIQinMQ+SDCD3I6EOCD4MgJEIMgoIIElqKCD2I9ZDgQxpRgYgJQWEPioomoqKjOM6U5sw49eAcvePsfb3r3rXvOvee/a2Xueds9lnft7+1zrnnnjMQERERERERERERERFRe0xkknUKdpjLLvq4x25es06l1mhmJccZ4b/RGOFHOmmxTqs2mM4mLj+hXhxX2MwM6/TCYhEHeeAkn8S/fM3b1mmGQDtrOF2SenH8xicUrFPWwyy20Vs2+SRus51XrVOvFjmWcYRhMfkkHnGU5TRZ06gMU9jAuYqpF8d5NjLVmo4Mb7KHARXySfzNV7xlTasctPIRv6hSL44TfEybNUU/OtjCtWDkk7jOVl6ypjoeSznEw+DkkxjkG96xppxgAmv5o2bUi+MMXUy0JT+Hndw1IZ9EH7uYZ0G9iQ/5nkem5JMY4Tgraa4d+Wl0c8mc9rNxmU1MD09+IQe4b07WFw84yKJQ1POs5pQ5xXLiNGto1yX/Cj3cNCcmiV62MUuDeo73+Y4hc0KVxDBHWEaucvKT+ZSz5jSqjXNsYIqc/Ot8Qb958loxwB7ekNDfV3TDsnFiv4uq+2bDvGoqJ7WYW74AGYJ7pVfQYZ1YANzgqHUKKUT5td5Gq3WyAgwxqD1lj3kXl0RPubQy3wSjANYJWCPzApR/FpjAC9bJCnCff6xTqBNIr/k7eG/ctl5+8I7/wPGr3jHueEbPZvG4bX9x0jv7Kset0G/1rwDGEhp/zv21xHjX/YQl3tHrHaMPl5h90DF+poyQtAnmHdtKPcrQXua2SmZvdl6bCu8GSgWQEZJSco2WyYX0yZJ0OcC1pyAaHR2QJQekRgA/oVbn/FoOSE0JtHjvFEhTrFMH+ClJU6wDB8goNaADZJRkfnGPz3sv193zmJSAzAGyM3uT55hyeVUEqL0D9DqMigC1d4BehzEQoAEdIFPdwgGpKgELB5iUgJYDwnYYFQFkB5WuUdhzjIoAGg7Q+oJbtw6QlkCqzgIh21SbJxutAgsogI5JZYWUqhLQcYDvmr/hHNCk0kpNHNDieShduqbtotFaLVZBAB9RaVUXRKO1TrIKAshW1MYBeRknGwdofKXyCZDzCqkggJYDCgqj5csRUIA0OSCoAGFTDCuvigBhUwxbYCoCSKtOlmLYFqsigHSNGs4BOmdqHQfkvO+Rp6gJhnSA9BcjFQF8KTZ7VkNGSeYA/+WOQQmEpaTxE6uSAP6pQ1KqWwe0et/ollFyV7t0MVQEkB1Uq2DcN1Cks6sIIDuoVsHozB5YgJAO0JldRQBZ55W2KRklpSYo+x9+Fzjm2TPg2DbkHf2nc+sZ79Nmw45t/d7ZL4o4RWQcz3thotvxgkR94Sd2lNr9vB4wn+XWDKrE7dK7M//WWBTAOgFrPNsEF7BuzOd3mWOdYpW4wM9jPu/l91LDO83f+w4dnWMJZ74EogDWCVgjCmCdgDUyL8Dj64AuPh/9nGeydUqB0c/D0b8+48vky1CBF63zqhmeLnABYglEATIvwOMmOIOXrRMxwFVuWacQEREREREREREREWGF/wER2hzj+o30OAAAAC56VFh0ZGF0ZTpjcmVhdGUAAHjaMzIwNNc1sNQ1MgkxNLYyMLUystA2MLAyMAAAQiEFFLD9IPgAAAAuelRYdGRhdGU6bW9kaWZ5AAB42jMyMDTXNbDUNTIJMTS2MjC1MrLQNjCwMjAAAEIhBRSZwohwAAAAAElFTkSuQmCC"/></defs>
+          </svg> 
+          <h2>Great Location</h2> 
+          <h3>Explore a localização excelente que oferece acesso fácil a pontos turísticos, centros comerciais e entretenimento. Aproveite a conveniência de estar no ação da cidade, com tudo o que você precisa ao seu alcance.</h3>
+        </div>
+        <div class="col-8 pt-5 my-1 my-sm-5 col-lg-4 pt-lg-5 my-lg-0 cor">
+          <svg width="70" height="69" viewBox="0 0 70 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 0C18.9818 0 19.7984 0.7075 19.9678 1.6405L20 2V14C20 18.8373 16.5654 22.8724 12.0017 23.7996L12 54C12 55.1046 11.1046 56 10 56C9.01816 56 8.20157 55.2925 8.03222 54.3595L8 54L8.0023 23.8004C3.65408 22.9189 0.329863 19.2161 0.0231304 14.6855L0 14V2C0 0.895431 0.895431 0 2 0C2.98184 0 3.79843 0.7075 3.96778 1.6405L4 2V14C4 16.6129 5.67017 18.8357 8.00117 19.659L8 2C8 0.895431 8.89543 0 10 0C10.9818 0 11.7984 0.7075 11.9678 1.6405L12 2L12.0028 19.6576C14.1526 18.8965 15.7394 16.9449 15.9708 14.5953L16 14V2C16 0.895431 16.8954 0 18 0ZM38 0C38.9818 0 39.7984 0.7075 39.9678 1.6405L40 2V54C40 55.1046 39.1046 56 38 56C37.0182 56 36.2016 55.2925 36.0322 54.3595L36 54V32H30C29.0182 32 28.2016 31.2925 28.0322 30.3595L28 30V10C28 4.47715 32.4772 0 38 0ZM36 28V4.34141C33.8489 5.10172 32.2608 7.05392 32.0292 9.40451L32 10V28H36Z" fill="black"/>
+          </svg>        
+          <h2 class="me-2">Free Meals</h2>   
+          <h3>Desfrute de refeições deliciosas e gratuitas durante a sua estadia. Oferecemos uma variedade de opções para atender a todos os gostos e preferências, garantindo uma experiência culinária agradável sem custo adicional.</h3>
+        </div>
+        <div class="col-8 pt-5 my-1 my-sm-5 col-lg-4 pt-lg-5 my-lg-0">
+          <svg width="70" height="69" viewBox="0 0 70 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M68.2214 24.6717H66.883V12.7673C66.8774 11.2558 66.2745 9.80775 65.2057 8.73894C64.1369 7.67012 62.6889 7.0672 61.1774 7.06164H58.9585V5.72327C58.9585 4.20536 58.3555 2.74963 57.2822 1.67631C56.2089 0.602986 54.7531 0 53.2352 0C51.7173 0 50.2616 0.602986 49.1883 1.67631C48.1149 2.74963 47.5119 4.20536 47.5119 5.72327V24.6717H22.4704V5.72327C22.4704 4.20536 21.8675 2.74963 20.7941 1.67631C19.7208 0.602986 18.2651 0 16.7472 0C15.2293 0 13.7735 0.602986 12.7002 1.67631C11.6269 2.74963 11.0239 4.20536 11.0239 5.72327V7.06164H8.80503C7.2918 7.06164 5.84054 7.66277 4.77052 8.73278C3.7005 9.8028 3.09937 11.2541 3.09937 12.7673V24.6717H1.76101C1.29396 24.6717 0.846039 24.8572 0.515786 25.1875C0.185534 25.5177 0 25.9657 0 26.4327C0 26.8998 0.185534 27.3477 0.515786 27.6779C0.846039 28.0082 1.29396 28.1937 1.76101 28.1937H3.09937V40.0629C3.09566 40.8149 3.24045 41.5602 3.52544 42.2561C3.81043 42.952 4.23001 43.5847 4.7601 44.1181C5.2902 44.6515 5.92039 45.0749 6.61451 45.3642C7.30864 45.6535 8.05304 45.8029 8.80503 45.8038H11.0415V47.1069C11.0415 48.6248 11.6445 50.0806 12.7178 51.1539C13.7911 52.2272 15.2469 52.8302 16.7648 52.8302C18.2827 52.8302 19.7384 52.2272 20.8117 51.1539C21.8851 50.0806 22.488 48.6248 22.488 47.1069V28.1937H47.5296V47.1069C47.5296 48.6248 48.1325 50.0806 49.2059 51.1539C50.2792 52.2272 51.7349 52.8302 53.2528 52.8302C54.7707 52.8302 56.2265 52.2272 57.2998 51.1539C58.3731 50.0806 58.9761 48.6248 58.9761 47.1069V45.8038H61.195C62.712 45.7963 64.1643 45.188 65.2337 44.1119C66.3031 43.0359 66.9025 41.58 66.9006 40.0629V28.1937H68.239C68.706 28.1937 69.154 28.0082 69.4842 27.6779C69.8145 27.3477 70 26.8998 70 26.4327C70 25.9657 69.8145 25.5177 69.4842 25.1875C69.154 24.8572 68.706 24.6717 68.239 24.6717H68.2214ZM11.0415 42.2818H8.82264C8.53357 42.2795 8.24777 42.2202 7.98158 42.1075C7.7154 41.9947 7.47403 41.8306 7.27125 41.6246C7.06848 41.4186 6.90828 41.1746 6.7998 40.9066C6.69131 40.6387 6.63667 40.352 6.63899 40.0629V12.7673C6.64177 12.189 6.87273 11.6352 7.28164 11.2263C7.69055 10.8174 8.24436 10.5864 8.82264 10.5836H11.0415V42.2818ZM18.966 47.1069C18.9623 47.6943 18.7274 48.2565 18.3121 48.6718C17.8967 49.0871 17.3345 49.3221 16.7472 49.3258C16.4581 49.3235 16.1723 49.2643 15.9061 49.1515C15.6399 49.0387 15.3986 48.8747 15.1958 48.6686C14.993 48.4626 14.8328 48.2186 14.7243 47.9507C14.6158 47.6827 14.5612 47.396 14.5635 47.1069V5.72327C14.5663 5.14499 14.7973 4.59118 15.2062 4.18227C15.6151 3.77335 16.1689 3.5424 16.7472 3.53962C17.329 3.54136 17.8871 3.77088 18.3018 4.17903C18.7166 4.58717 18.955 5.14149 18.966 5.72327V47.1069ZM55.4541 47.1069C55.4541 47.6907 55.2222 48.2506 54.8094 48.6634C54.3965 49.0763 53.8366 49.3082 53.2528 49.3082C52.669 49.3082 52.1091 49.0763 51.6963 48.6634C51.2835 48.2506 51.0516 47.6907 51.0516 47.1069V5.72327C51.0516 5.13946 51.2835 4.57956 51.6963 4.16675C52.1091 3.75393 52.669 3.52201 53.2528 3.52201C53.8366 3.52201 54.3965 3.75393 54.8094 4.16675C55.2222 4.57956 55.4541 5.13946 55.4541 5.72327V47.1069ZM63.3786 40.0629C63.3809 40.352 63.3263 40.6387 63.2178 40.9066C63.1093 41.1746 62.9491 41.4186 62.7464 41.6246C62.5436 41.8306 62.3022 41.9947 62.036 42.1075C61.7698 42.2202 61.484 42.2795 61.195 42.2818H58.9761V10.5836H61.195C61.7732 10.5864 62.3271 10.8174 62.736 11.2263C63.1449 11.6352 63.3758 12.189 63.3786 12.7673V40.0629Z" fill="black"/>
+          </svg>    
+          <h2>Fiteness Room</h2>        
+          <h3>Mantenha-se ativo e saudável com nosso moderno centro de fitness. Equipado com máquinas de última geração e uma variedade de equipamentos, nossa sala de ginástica oferece tudo o que você precisa para uma rotina de exercícios completa.</h3>  
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      Produzido por Alisson Assis &copy; 2024
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/js/script.js" />
+  </body>
+</html>
